@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.main .nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    justify-content: space-between;
+    font-size: 13px
+}
+.main .nav img{
+    height: 6vh;
+}
+.main .nav .middle{
+    display: flex;
+}
+.main .nav .middle h3{
+    margin: 0 15px;
+}
+.end{
+    display: flex;
+    align-items: center
+}
+.end button{
+    margin: 0 3vw;
+    height: 6vh;
+    width: 8vw;
+}
+.center{
+    font-size: 7vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+.center h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    z-index: 999;
+}
+span{
+    background-color: brown;
+    border: 1px solid black;
+    font-size: 5vh;
+    margin: 0px 14px;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.center img{
+    height: 35vh;
+    width: 10vw;
+}
+.center #one{
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    border-radius: 14px
+}
+.center #two{
+    position: absolute;
+    top: 50vh;
+    left: 26vw;
+    z-index: -1;
+    border-radius: 14px;
+}
+.center #three{
+    position: absolute;
+    top: 16vh;
+    left: 61vw;
+    z-index: -1;
+    border-radius: 14px;
+}
+.center #four{
+    position: absolute;
+    bottom: 10vh;
+    right: 8vw;
+    z-index: -1;
+    border-radius: 14px;
+}
+h5{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10vh;
+    left: 48vw;
+}
+h5 svg{
+    height: 15px;
+    margin: 0 5px;
+}
